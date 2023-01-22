@@ -88,6 +88,32 @@ Submission Instructions:
 Word count: 50-200
 You are encouraged to reply to your peers. What did you think of the example they shared?
 --------------------------
+(3) Challenges Of Scope
+------------------------------
+
+Learning Outcome Addressed
+--------------------------
+Discuss the impact of global scope vs. block scope on coding projects
+------------------------
+Instructions:
+
+In ES6, the variable declarations `let` and `const` are block-scoped by default. The declaration `var` is globally scoped unless it is wrapped inside a function. 
+
+If you were working on a codebase with a team, there could be several disadvantages of using globally scoped variables. 
+
+Respond to the following:
+
+What kinds of problems could block-scoped variables prevent?
+Describe a situation in which it would be appropriate to use a globally scoped variable.  
+Submission Instructions:
+
+ 
+
+Word count: 50-200
+You are encouraged to reply to your peers. Did you learn anything new from their explanation?
+------------------------------
+
+
 
 
 
