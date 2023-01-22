@@ -42,4 +42,52 @@ Submission Instructions:
 
 Word count: 50-200
 You are encouraged to reply to your peers. What did you find interesting about the ES6 feature they chose?
-This topic was locked Aug 10, 2022 at 12:29pm.
+-------------------------
+(2) Building Blocks Of Destructuring
+
+----------------------------------------
+Learning Outcome Addressed
+-----------------------
+
+Identify the building blocks of destructuring
+
+Destructuring Review
+
+In JavaScript, destructuring allows you to unpack values from arrays and objects into distinct variables. Here, a student’s ID is extracted from the `student` object using destructuring.
+
+const student = { 
+  id: 183294,  
+  firstName: "Peter", 
+  lastName: "Parker", 
+  age: 19 
+} 
+function getID({id}) { 
+  return id; 
+} 
+console.log(getID(student)); 
+
+>>183294 
+The `rest` operator allows you to collect the remaining values into a single array called `rest`. Here, the first element in the array is extracted to a variable named first. The rest of the elements are extracted to a variable named rest.
+
+let numbers = [1, 2, 3, 4, 5]; 
+let [first, ...rest]; 
+console.log(first); 
+console.log(rest); 
+>>1 
+>>[2, 3, 4, 5] 
+Instructions:
+
+Given the functionality of destructuring and rest explained above, write a discussion post that responds to the following:
+
+How are destructuring and rest features similar? How are they different?
+Share an example from a past project where you could have used destructuring or the rest operator.
+Submission Instructions:
+
+ 
+
+Word count: 50-200
+You are encouraged to reply to your peers. What did you think of the example they shared?
+--------------------------
+
+
+
